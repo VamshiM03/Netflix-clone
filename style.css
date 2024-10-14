@@ -1,0 +1,382 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif ;
+    color: white;
+}
+body{
+    height:100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+#head{
+    font-family:sans-serif;
+    color: rgb(229, 9, 20);
+    text-shadow: 0px 2px rgb(255, 0, 0);
+    font-size: 3rem;
+}
+.btn{
+    padding: 10px;
+}
+#btn2{
+    background-color: red;
+    height: 35px;
+    width: 80px;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#btn1{
+    border:  2px solid rgb(64, 64, 64);
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 110px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+main{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(images/netlogo.jpg);
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box{
+    height: 99vh;
+    opacity: 0.44;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+
+.content{
+    font-family: 'martel sans',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    top: 150px;
+    flex-direction: column;
+    gap: 20px;
+}
+ input{
+    font-weight: 900;
+    height: 45px;
+    width: 420px;
+   background-color: rgb(23,23,23,0.2);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(158, 158, 158);
+}
+span h1{
+    text-align: center;
+    font-weight: 480;
+    font-size: 4rem;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+#btn3{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 45px;
+    width: 160px;
+    background-color: red;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.var .toy, .mob{
+    font-family: sans-serif;
+    font-size: 21px;
+}
+.var:hover{
+    background: linear-gradient(rgba(255, 255, 255, 0.7));
+}
+
+.container{
+    max-width: 100%;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-image: url(tv.png); */
+}
+.container img{
+    width: 300px;  
+    margin: 30px;
+    float: right;
+}
+.nil :first-child{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.container2{
+    background-color: black;
+    height: 500px;
+    text-align:right ;
+    display: flex;
+    flex-direction: column;
+}
+    .container2 img{
+        width: 500px;
+        display: flex;
+        justify-content: left;
+        align-items: last baseline;
+        position: relative;
+        bottom: 60px;
+    }
+    .container2 p{
+        position: relative;
+        top: 200px;
+        right: 150px;
+    }
+#m2{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.mob{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#m4{
+    font-weight: 900;
+    font-size: 48px;
+    position: relative;
+}
+.mob span{
+    position: relative;
+    top: 100px;
+}
+
+.toy{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.toy span{
+    position: relative;
+    top: 150px;
+}
+#m5{
+    font-size: 48px;
+    font-family:'poppine';
+    font-weight: 800;
+}
+.infobox{
+    height: 1000px;
+    width: 100%;
+    background-color: black;
+    
+}
+#m6{
+    font-size: 3rem;
+    text-align: center;
+}
+.box1{
+    background-color: gray;
+    height: 30px;
+    width: 700px;
+   padding: 14px;
+}
+.infobox{
+      margin: auto;
+}
+/* /------------------FOOTER--------------/ */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: black;
+   text-align: center;
+   border-top: 1px solid black;
+
+}
+.footer h1{
+    font: size 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    color: #c9c2c2;
+}
+.footer p{
+    color: #8f8e8e;
+    font-family: sans-serif;
+    font-style: 15px;
+    color: rgb(239, 200, 200);
+}
+
+.icons .fa{
+    color: #ffffff;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 20px;
+    height: 25px;
+    width: 30px;
+    border-radius: 50%;
+}
+.icons .fa:hover{
+    background-color: rgb(32, 32, 32);
+
+}
+.sthings{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.sthings .cont{
+    padding-top: 80px;
+    line-height: 100px;
+}
+.sthings .cont h1{
+    font-size: 3rem;
+}
+.cont p{
+    font-size: 17px;
+    color: #c9c2c2;
+    line-height: 45px;
+}
+@media(max-width:480px){
+    header #head{
+        font-size: 2rem;
+        text-shadow: none;
+
+    }
+    header #btn2{
+        height: 30px;
+        width: 60px;
+        font-size: 15px;
+    }
+    header #btn1{
+        width: max-content;
+        font-size: 13px;
+        padding: 5px;
+    }
+ 
+    .content h1{
+        font-size: 3rem;
+        position: relative;
+        bottom: 20px;
+    }
+    .content span{
+        position: relative;
+        bottom: 70px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 1em;
+    }
+    .inp input{
+        margin-left: 25px;
+        position: relative;
+        bottom: 50px;
+    }
+    .inp #btn3{
+        position: relative;
+        left: 140px;
+        bottom: 40px;
+    }
+    .mob img{
+        width: 150px;
+    }
+    .mob{
+        height: 250px;
+        padding: 10px;
+    }
+    .mob #m4{
+        font-size: 2rem;
+        position: relative;
+        bottom: 100px;
+        padding: 10px;
+    }
+    .mob p{
+        position: relative;
+        bottom: 100px;
+        font-size: 16px;
+        text-align: center;
+        color: #c9c2c2;
+        line-height: 25px;
+    }
+    .toy{
+        height: 300px;
+    }
+    .toy img{
+        width: 200px;
+    }
+    .toy #m5{
+        position: relative;
+        bottom: 100px;
+        font-size: 31px;
+    }
+    .toy p{
+        position: relative;
+        bottom: 100px;
+        font-size: 17px;
+        color: #c9c2c2;
+        line-height: 25px;
+    }
+    .sthings img{
+        width: 300px;
+    }
+    .cont {
+        line-height: 10px;
+        height: 300px;
+        width:fit-content ;
+        padding: 0px;
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+        right: 40px;
+    }
+    .cont #head5{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .cont p{
+        line-height: 25px;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
+
+
